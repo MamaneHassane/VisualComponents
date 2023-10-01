@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-row h-22 border-b-2 bg-blue-200">
+        <div class="rounded-full relative mt-6">
+            <div class="absolute top-3 right-0 w-4 h-4 bg-orange-600 rounded-full border-2">
+            </div>
+            <img src="./img/jenna_ortega.jpg" alt="" class=" object-cover mx-1 my-1 rounded-full h-14 w-14 border-2 border-pink-400">
+        </div>
+        <div class="flex flex-col space-y-1">
+            <span class="mt-1 mb-0 ml-2 font-bold">Jenna Ortega</span>
+            <text class="ml-2 text-sm italic text-gray-500 ">@WedenesdayAddams</text>
+            <div class = "ml-2 mb-1 text-sm font-white overflow-auto whitespace-nowrap">Hi, i'm Jenna, feel free to contact me !</div>
+            <grid class="ml-2 grid-cols-3 xl:grid-cols-4">
+                <span class="font-bold text-sm cursor-pointer border-pink-400 bg-pink-400 text-white rounded-md border-2 px-1">Acting</span>
+                <span class="font-bold text-sm cursor-pointer border-blue-600 bg-blue-600 text-white rounded-md border-2 px-1">Reading</span>
+                <span class="font-bold text-sm cursor-pointer border-red-700 bg-red-700 text-white rounded-md border-2 px-1">Gaming</span>
+                <span class="font-bold text-sm cursor-pointer border-green-700 bg-green-700 text-white rounded-md border-2 px-1">Travelling</span>
+                <span class="font-bold text-sm cursor-pointer border-cyan-900 bg-cyan-900 text-white rounded-md border-2 px-1">Friends</span>
+            </grid>
+        </div>
+        <div class="absolute top-2 right-5 flex flex-row space-x-2">
+            <button class="text-sm font-bold text-blue-600 cursor-pointer border-pink-400  hover:bg-pink-400 hover:text-white rounded-md border-2 px-1">View</button>
+            <button class="text-sm font-bold text-blue-600 cursor-pointer border-green-400 hover:bg-green-400 hover:text-white rounded-md border-2 px-1">Invite +</button>
+        </div>
+    </div>
+</body>
+</html>

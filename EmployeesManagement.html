@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Management</title>
+</head>
+
+<body class=" mx-8 my-10 bg-cyan-900">
+
+
+    <div class="">
+
+
+        <h1 class="font-bold pb-2 text-white">Employees management</h1>
+
+        <div class="flex overflow-auto flex flex-col rounded-lg hidden md:flex">
+            <table class="bg-blue-300 ">
+                <thead>
+                    <tr class="bg-yellow-300 border-b-2 rounded-lg">
+                        <th class="p-2 text-left">Employee ID</th>
+                        <th class="p-2 text-left">Photo</th>
+                        <th class="p-2 text-left">Firstname</th>
+                        <th class="p-2 text-left">Lastname</th>
+                        <th class="p-2 text-left">Role</th>
+                        <th class="p-2 text-left">Shop</th>
+                        <th class="p-2 text-left">Salary</th>
+                        <th class="p-2 text-left">Status</th>
+                        <th class="p-2 text-left">Actions</th>
+                    </tr>
+                </thead>
+                <tr class="space-x-1 text-sm border-b-2 rounded-lg">
+                    <td class="p-2 text-left font-bold text-blue-600 hover:underline">#152-0F3</td>
+                    <td class="p-2 items-center">
+                        <img src="./assets/images/employees/employee1.jpg" alt="Employee photo" class="w-10 h-10 object-cover rounded-full border-2 border-cyan-900">
+                    </td>
+                    <td class="p-2 text-left ">Dwayne</td>
+                    <td class="p-2 text-left">Johnson</td>
+                    <td class="p-2 text-left">Wrestler</td>
+                    <td class="p-2 text-left">WWE</td>
+                    <td class="p-2 text-left font-bold">20000</td>
+                    <td class="p-2 text-left">
+                        <span class="bg-green-500 rounded-lg hover:bg-green-300 text-white cursor-pointer p-1 uppercase ">
+                            Online
+                        </span>
+                    </td>
+                    <td>
+                        <span class="p-2 text-left ">edit</span>
+                        <span class="p-2 text-left ">view</span>
+                        <span class="p-2 text-left ">delete</span>
+                    </td>
+                </tr>
+            </table>
+
+
+
+        </div>
+
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:hidden ">
+        <div class="py-2 bg-slate-100 flex flex-row p-1 text-sm border rounded-xl relative whitespace-no-wrap overflow-auto">
+            <span class="absolute top-0 letf-0 font-bold text-blue-500 hover:underline">#152-0F3</span>
+            <img src="./img/dwayne_johnson.jpg" alt="Employee photo" class="w-10 h-10 object-cover rounded-full border-2 border-cyan-900 mt-3 mr-1">
+            <div class="flex flex-col pb-0.5">
+                <div class="flex flex-row mt-1">
+                    <span class="ml-1 text-sm font-bold">Dwayne</span>
+                    <span class=" ml-1 text-sm font-bold">Johnson</span>
+                </div>
+
+                <div class="flex flex-row mt-1">
+                    <span class="ml-1 text-sm">Wrestler</span> &nbsp-
+                    <span class=" ml-1 text-sm">WWE</span> &nbsp-
+                    <span class=" ml-1 text-sm font-bold text-blue-600">20000</span>
+                </div>
+
+
+                <div class=" flex flex-row text-sm ">
+                    <span class="p-1 text-left text-White ">edit</span>
+                    <span class="p-1 text-left text-White ">view</span>
+                    <span class="p-1 text-left text-White ">delete</span>
+                </div>
+            </div>
+            <span class="bg-green-500 hover:bg-green-300 font-bold text-white text-sm rounded-lg mt-0.5 mr-0.5 p-0.5 absolute top-0 right-0 ">
+                online
+            </span>
+        </div>
+        <div class="py-2 bg-slate-100 flex flex-row p-1 text-sm border rounded-xl relative whitespace-no-wrap overflow-auto">
+            <span class="absolute top-0 letf-0 font-bold text-blue-500 hover:underline">#152-0F3</span>
+            <img src="./img/joy_sunday.jpg" alt="Employee photo" class="w-10 h-10 object-cover rounded-full border-2 border-cyan-900 mt-3 mr-1">
+            <div class="flex flex-col pb-0.5">
+                <div class="flex flex-row mt-1">
+                    <span class="ml-1 text-sm font-bold">Joy</span>
+                    <span class=" ml-1 text-sm font-bold">Sunday</span>
+                </div>
+
+                <div class="flex flex-row mt-1">
+                    <span class="ml-1 text-sm">Actress</span> &nbsp-
+                    <span class=" ml-1 text-sm">Netflix</span> &nbsp-
+                    <span class=" ml-1 text-sm font-bold text-blue-600">18000</span>
+                </div>
+
+
+                <div class=" flex flex-row text-sm ">
+                    <span class="p-1 text-left text-White ">edit</span>
+                    <span class="p-1 text-left text-White ">view</span>
+                    <span class="p-1 text-left text-White ">delete</span>
+                </div>
+            </div>
+            <span class="bg-green-500 hover:bg-green-300 font-bold text-white text-sm rounded-lg mt-0.5 mr-0.5 p-0.5 absolute top-0 right-0 ">
+                online
+            </span>
+        </div>
+        <div class="py-2 bg-slate-100 flex flex-row p-1 text-sm border rounded-lg relative whitespace-no-wrap overflow-auto ">
+            <span class="absolute top-0 letf-0 font-bold text-blue-500 hover:underline">#152-0F8</span>
+            <img src="./img/emma_myers.jpg " alt="Employee photo " class="w-10 h-10 object-cover rounded-full border-2 border-cyan-900 mt-3 mr-1 ">
+            <div class="flex flex-col pb-0.5 ">
+                <div class="flex flex-row mt-1">
+                    <span class="ml-1 text-sm font-bold">Emma</span>
+                    <span class=" ml-1 text-sm font-bold ">Myers</span>
+                </div>
+                <div class="flex flex-row">
+                    <span class="ml-1 text-sm">Dancer</span> &nbsp-
+                    <span class=" ml-1 text-sm">Instagram</span> &nbsp-
+                    <span class=" ml-1 text-sm font-bold text-blue-600">55000</span>
+                </div>
+                <div class="flex flex-row text-sm ">
+                    <span class="p-1 text-left text-White ">edit</span>
+                    <span class="p-1 text-left text-White ">view</span>
+                    <span class="p-1 text-left text-White ">delete</span>
+                </div>
+            </div>
+            <span class="bg-red-500 hover:bg-red-300 font-bold text-white text-sm rounded-lg mt-0.5 mr-0.5 p-0.5 absolute top-0 right-0 ">
+                offline
+            </span>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
